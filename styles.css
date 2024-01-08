@@ -216,13 +216,16 @@ header {
 }
 h1 {
   color: var(--clr-white);
+  position: absolute;
+  top: 30%;
+  bottom: 70%;
 }
 /* switch button */
 
 .switch-btn {
   position: absolute;
-  bottom: 10%;
-  right: 7%;
+  bottom: 20%;
+  right: 50%;
   width: 7rem;
   height: 2rem;
   display: flex;
